@@ -3,7 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.routers.upload_router import router as upload_router
 
 origins = [
-    "https://lyze-whats.vercel.app"
+    "https://lyze-whats.vercel.app",
+    "https://lyzewhats-back.onrender.com"
 ]
 
 app = FastAPI(title="LyzeWhats API")
